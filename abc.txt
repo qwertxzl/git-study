@@ -1,7 +1,13 @@
 $ （linux 是普通用户，#是 超级用户管理员）
 Pwd 显示用户当前所处的路径
 ls 显示当前文件夹的内容
-rm  –rf 删除文件或文件夹
+rm –rf 删除文件或文件夹
 cd 改变目录， cd 后跟上目录地址加上：（windows 不区分大小写）
 git init 就是把jit变成可以管理的仓库（前提是要先用cd进入到安装的目录里面）
 git add （命令告诉git，把文件添加到仓库）
+gid commit -m 告诉git commit ，文件提交到仓库
+git config --global user.name "Your Name" 先创建姓名
+git config --global user.email "email@example.com"创建email
+mkdir 创建文件夹
+git status（跟上文件名）检测有没有多
+git diff（跟上文件名） 是检测多了什么
