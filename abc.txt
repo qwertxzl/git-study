@@ -11,3 +11,6 @@ git config --global user.email "email@example.com"创建email
 mkdir 创建文件夹
 git status（跟上文件名）检测有没有多
 git diff（跟上文件名） 是检测多了什么
+git log 显示用户版本号
+git log --pretty=oneline（输出信息太复杂，可以改成一行。美化输出行）
+git reset --hard （后跟上版本号 （versionname versionname 是通过git log 显示的版本号），可以随意输入版本的几个字母，作用是回到某一个版本
