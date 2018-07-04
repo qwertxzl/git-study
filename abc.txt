@@ -14,3 +14,7 @@ git diff（跟上文件名） 是检测多了什么
 git log 显示用户版本号
 git log --pretty=oneline（输出信息太复杂，可以改成一行。美化输出行）
 git reset --hard （后跟上版本号 （versionname versionname 是通过git log 显示的版本号），可以随意输入版本的几个字母，作用是回到某一个版本
+cat 跟上文件名（显示文件内容）
+git reset --hard HEAD^ 指向那个版本号， 当前版本就是谁。（工作区的版本就是谁）
+git reflog 展示穿梭的过程，主要用来反悔， 回到之前的版本
+
